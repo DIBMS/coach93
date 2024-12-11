@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: coach93-api
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm run start:prod
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        sync: false # You'll set this in Render.com dashboard
+    healthCheckPath: /api/health
