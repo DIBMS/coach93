@@ -1,0 +1,32 @@
+# Flutter/Dart
+**/build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+*.iml
+*.iws
+.idea/
+.vscode/
+
+# NestJS
+**/node_modules/
+**/dist/
+**/coverage/
+.env
+.env.*
+
+# IDE
+.idea/
+*.swp
+*.swo
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# OS
+.DS_Store
+Thumbs.db
